@@ -28,11 +28,15 @@
     <title>EduEng</title>
 </head>
 <body>
+    <div class="signup-error">
+        <h3>There's a problem..</h3>
+        <p>Unfortunately, you can't sign up right now. Try again later.</p>
+    </div>
     <header>
         <nav>
             <div class="row">
                 <img class="logo" src="resources/img/main-logo.png" alt="Website logo">
-                <img class="logo-black" src="resources/img/main-logo.png" alt="Alternative website logo">
+                <a class="js--scroll-to-top" href="#top"><img class="logo-black" src="resources/img/main-logo.png" alt="Alternative website logo"><a href="#top"></a>
                 <ul class="main-nav js--main-nav">
                     <li><a href="#features">Features</a></li>
                     <li><a href="#works">How it works</a></li>
@@ -352,16 +356,17 @@
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/script.js"></script>
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130937634-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      gtag('config', 'UA-130937634-1');
+    gtag('config', 'UA-130937634-1');
     </script>
-    
+
+
 </body>
 </html>
